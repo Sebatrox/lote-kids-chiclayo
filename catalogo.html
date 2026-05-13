@@ -190,7 +190,7 @@ footer{background:#222;color:#777;text-align:center;padding:20px 16px 30px;font-
       <option value="">Todos los tipos</option><option value="Bividi">Bividi</option><option value="Buzo">Buzo</option><option value="Cafarena">Cafarena</option><option value="Camisa M/C">Camisa M/C</option><option value="Camisa M/L">Camisa M/L</option><option value="Chaqueta">Chaqueta</option><option value="Cortaviento">Cortaviento</option><option value="Leggins">Leggins</option><option value="Pantalon">Pantalon</option><option value="Polera">Polera</option><option value="Polera + Buzo">Polera + Buzo</option><option value="Polo M/C">Polo M/C</option><option value="Polo M/L">Polo M/L</option><option value="Short">Short</option>
     </select>
     <select class="fsel" id="sel-ta" onchange="applyF()">
-      <option value="">Todas las tallas</option><option value="09 meses">09 meses</option><option value="12-18 meses">12-18 meses</option><option value="18 meses">18 meses</option><option value="18-24 meses">18-24 meses</option><option value="24-36 meses">24-36 meses</option><option value="24 meses">24 meses</option><option value="01">01</option><option value="02">02</option><option value="04">04</option><option value="06">06</option><option value="08">08</option><option value="10">10</option><option value="12">12</option><option value="14">14</option><option value="120">120</option><option value="130">130</option><option value="90/52">90/52</option><option value="130/60">130/60</option>
+      <option value="">Todas las tallas</option><option value="09 meses">09 meses</option><option value="12-18 meses">12-18 meses</option><option value="18-24 meses">18-24 meses</option><option value="18 meses">18 meses</option><option value="24 meses">24 meses</option><option value="24-36 meses">24-36 meses</option><option value="01">01</option><option value="02">02</option><option value="04">04</option><option value="06">06</option><option value="08">08</option><option value="10">10</option><option value="12">12</option><option value="14">14</option><option value="120">120</option><option value="130">130</option><option value="130/60">130/60</option><option value="90/52">90/52</option>
     </select>
   </div>
   <div class="srch">
@@ -270,9 +270,15 @@ const INV_BASE = [{"codigo": "0001", "genero": "niño", "tipo": "Polo M/L", "mod
 let inv = [], cart = new Map(); // codigo -> cantidad pedida
 let F = {g:'todos', tipo:'', talla:'', q:''};
 const WA = '51976235299';
-const PWD = 'Sebitas250267@&';
+const PWD_HASH = 'eb09a17085982cf7a7b1c8c26538de53067a208eb311309a1797e14b8787113a';
+const KW_HASH  = 'b8b8eb83374c0bf3b1c3224159f6119dbfff1b7ed6dfecdd80d4e8a895790a34';
 const LSK = 'lk_v2';
 const PH  = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect fill='%23f0f0f0' width='200' height='200'/%3E%3Ctext fill='%23ccc' x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='48'%3E%3F%3C/text%3E%3C/svg%3E";
+
+async function sha256(str){
+  const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
+}
 
 function init(){
   const saved = JSON.parse(localStorage.getItem(LSK)||'{}');
@@ -293,16 +299,20 @@ function setG(g,btn){
   btn.classList.add('active');
   renderGrid();
 }
-function applyF(){
+async function applyF(){
   const raw = document.getElementById('srch').value;
-  if(raw.trim() === 'admin2024'){
-    document.getElementById('srch').value = '';
-    openLogin();
-    return;
+  const trimmed = raw.trim();
+  if(trimmed.length === 9){
+    const h = await sha256(trimmed);
+    if(h === KW_HASH){
+      document.getElementById('srch').value = '';
+      openLogin();
+      return;
+    }
   }
   F.tipo  = document.getElementById('sel-t').value;
   F.talla = document.getElementById('sel-ta').value;
-  F.q     = raw.toLowerCase().trim();
+  F.q     = trimmed.toLowerCase();
   renderGrid();
 }
 function match(p){
@@ -497,8 +507,9 @@ function openLogin(){
   setTimeout(()=>document.getElementById('pwd-in').focus(),100);
 }
 function closePwd(e){if(e.target===e.currentTarget)document.getElementById('ov-pwd').classList.remove('open');}
-function checkPwd(){
-  if(document.getElementById('pwd-in').value===PWD){
+async function checkPwd(){
+  const hash = await sha256(document.getElementById('pwd-in').value);
+  if(hash === PWD_HASH){
     document.getElementById('ov-pwd').classList.remove('open');
     openAdm();
   } else {
