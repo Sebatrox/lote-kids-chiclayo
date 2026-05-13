@@ -167,6 +167,8 @@ tr.sold td{color:#bbb}
 .tog-sl::before{content:'';position:absolute;width:17px;height:17px;left:3px;top:3px;background:#fff;border-radius:50%;transition:transform .25s}
 .tog input:checked + .tog-sl{background:var(--or)}
 .tog input:checked + .tog-sl::before{transform:translateX(19px)}
+.adm-qty-btn{background:var(--or);color:#fff;border-radius:5px;padding:3px 8px;font-size:11px;font-weight:700}
+.adm-sold-btn{background:#e53935;color:#fff;border-radius:5px;padding:3px 8px;font-size:11px;font-weight:700}
 
 /* FOOTER */
 footer{background:#222;color:#777;text-align:center;padding:20px 16px 30px;font-size:12px}
@@ -192,8 +194,13 @@ async function sha256(str){
 }
 
 function init(){
-  const saved = JSON.parse(localStorage.getItem(LSK)||'{}');
-  inv = INV_BASE.map(p=>({...p, estado: saved[p.codigo]??p.estado}));
+  const saved    = JSON.parse(localStorage.getItem(LSK)||'{}');
+  const savedQty = JSON.parse(localStorage.getItem(LSK+'_qty')||'{}');
+  inv = INV_BASE.map(p=>({
+    ...p,
+    estado:   saved[p.codigo]    ?? p.estado,
+    cantidad: savedQty[p.codigo] ?? p.cantidad
+  }));
   renderGrid();
 }
 
@@ -440,6 +447,26 @@ function closeAdm(){
   for(const [c] of [...cart]){const p=inv.find(x=>x.codigo===c);if(p&&p.estado==='vendido')cart.delete(c);}
   renderGrid(); updCart();
 }
+function admQtyCellInner(p){
+  const numCol=p.cantidad>1?'var(--or)':'inherit';
+  const numW=p.cantidad>1?'700':'400';
+  const num=`<span style="font-weight:${numW};color:${numCol}">${p.cantidad}</span>`;
+  if(p.estado==='vendido') return num;
+  const soldBtn=`<button class="adm-sold-btn" onclick="admSoldOut('${p.codigo}')">Agotado</button>`;
+  const minusBtn=p.cantidad>=2?`<button class="adm-qty-btn" onclick="admReduceQty('${p.codigo}')">-1</button>`:'';
+  return `${num}<div style="display:flex;gap:4px;margin-top:5px;justify-content:center">${minusBtn}${soldBtn}</div>`;
+}
+function admReduceQty(cod){
+  const p=inv.find(x=>x.codigo===cod); if(!p||p.cantidad<=1) return;
+  const s=JSON.parse(localStorage.getItem(LSK+'_qty')||'{}');
+  s[cod]=p.cantidad-1; localStorage.setItem(LSK+'_qty',JSON.stringify(s));
+  p.cantidad=p.cantidad-1;
+  const cell=document.getElementById('aqc-'+cod);
+  if(cell) cell.innerHTML=admQtyCellInner(p);
+  renderStats();
+}
+function admSoldOut(cod){ togState(cod,false); }
+
 function renderStats(){
   const tot=inv.length;
   const vnd=inv.filter(p=>p.estado==='vendido').length;
@@ -459,7 +486,7 @@ function renderTable(){
       <td style="text-transform:capitalize">${p.tipo}</td>
       <td>${p.talla}</td>
       <td style="text-transform:capitalize">${p.color}</td>
-      <td style="text-align:center;font-weight:${p.cantidad>1?'700':'400'};color:${p.cantidad>1?'var(--or)':'inherit'}">${p.cantidad}</td>
+      <td id="aqc-${p.codigo}" style="text-align:center">${admQtyCellInner(p)}</td>
       <td>${p.precio.toFixed(2)}</td>
       <td>
         <label class="tog">
@@ -476,6 +503,11 @@ function togState(cod,avail){
   const r=document.getElementById('ar-'+cod); if(r) r.className=est==='vendido'?'sold':'';
   const l=document.getElementById('al-'+cod);
   if(l){l.textContent=est==='vendido'?'Vendido':'Disp.';l.style.color=est==='vendido'?'#e53935':'#4CAF50';}
+  const chk=document.querySelector(`#ar-${cod} input[type=checkbox]`);
+  if(chk) chk.checked=avail;
+  const p=inv.find(x=>x.codigo===cod);
+  const cell=document.getElementById('aqc-'+cod);
+  if(cell&&p) cell.innerHTML=admQtyCellInner(p);
   renderStats();
 }
 
