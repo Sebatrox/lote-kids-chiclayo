@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Select-Object -First 30)",
+      "PowerShell(\\(Get-ChildItem \"c:\\\\Users\\\\Sebastian\\\\Desktop\\\\tienda-ropa\\\\fotos\"\\).Count)",
+      "PowerShell(python --version)",
+      "PowerShell(pip --version)",
+      "PowerShell(python -m pip --version)",
+      "PowerShell(python -m pip show openpyxl pandas 2>&1)",
+      "PowerShell(python -m pip install openpyxl -q)"
+    ]
+  }
+}
