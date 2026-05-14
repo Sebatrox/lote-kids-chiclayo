@@ -544,18 +544,33 @@ function admQtyCellInner(p){
         <button class="adm-restore-btn" onclick="admRestore('${p.codigo}')">Restaurar</button>
       </div>`;
   }
+  const orig=(INV_BASE.find(x=>x.codigo===p.codigo)||p).cantidad;
   const numCol=p.cantidad>1?'var(--or)':'inherit';
   const numW=p.cantidad>1?'700':'400';
   const num=`<span style="font-weight:${numW};color:${numCol}">${p.cantidad}</span>`;
   const soldBtn=`<button class="adm-sold-btn" onclick="admSoldOut('${p.codigo}')">Marcar agotado</button>`;
   const minusBtn=p.cantidad>=2?`<button class="adm-qty-btn" onclick="admReduceQty('${p.codigo}')">-1</button>`:'';
-  return `${num}<div style="display:flex;gap:4px;margin-top:5px;justify-content:center;flex-wrap:wrap">${minusBtn}${soldBtn}</div>`;
+  const plusBtn=p.cantidad<orig?`<button class="adm-qty-btn" onclick="admIncreaseQty('${p.codigo}')">+1</button>`:'';
+  return `${num}<div style="display:flex;gap:4px;margin-top:5px;justify-content:center;flex-wrap:wrap">${minusBtn}${plusBtn}${soldBtn}</div>`;
 }
 function admReduceQty(cod){
   const p=inv.find(x=>x.codigo===cod); if(!p||p.cantidad<=1) return;
   const s=JSON.parse(localStorage.getItem(LSK+'_qty')||'{}');
   s[cod]=p.cantidad-1; localStorage.setItem(LSK+'_qty',JSON.stringify(s));
   p.cantidad=p.cantidad-1;
+  const cell=document.getElementById('aqc-'+cod);
+  if(cell) cell.innerHTML=admQtyCellInner(p);
+  renderStats();
+}
+function admIncreaseQty(cod){
+  const p=inv.find(x=>x.codigo===cod); if(!p) return;
+  const orig=(INV_BASE.find(x=>x.codigo===cod)||p).cantidad;
+  if(p.cantidad>=orig) return;
+  const newQty=p.cantidad+1;
+  const s=JSON.parse(localStorage.getItem(LSK+'_qty')||'{}');
+  if(newQty>=orig){delete s[cod];}else{s[cod]=newQty;}
+  localStorage.setItem(LSK+'_qty',JSON.stringify(s));
+  p.cantidad=newQty;
   const cell=document.getElementById('aqc-'+cod);
   if(cell) cell.innerHTML=admQtyCellInner(p);
   renderStats();
