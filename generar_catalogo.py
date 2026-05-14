@@ -187,6 +187,7 @@ const WA = '51976235299';
 const PWD_HASH = 'eb09a17085982cf7a7b1c8c26538de53067a208eb311309a1797e14b8787113a';
 const KW_HASH  = 'b8b8eb83374c0bf3b1c3224159f6119dbfff1b7ed6dfecdd80d4e8a895790a34';
 const LSK = 'lk_v2';
+const VER = 'v3';
 const PH  = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect fill='%23f0f0f0' width='200' height='200'/%3E%3Ctext fill='%23ccc' x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='48'%3E%3F%3C/text%3E%3C/svg%3E";
 
 async function sha256(str){
@@ -195,6 +196,10 @@ async function sha256(str){
 }
 
 function init(){
+  if(localStorage.getItem('lk_version')!==VER){
+    localStorage.clear();
+    localStorage.setItem('lk_version',VER);
+  }
   const saved    = JSON.parse(localStorage.getItem(LSK)||'{}');
   const savedQty = JSON.parse(localStorage.getItem(LSK+'_qty')||'{}');
   inv = INV_BASE.map(p=>({
@@ -460,12 +465,13 @@ function admQtyCellInner(p){
   const numW=p.cantidad>1?'700':'400';
   const num=`<span style="font-weight:${numW};color:${numCol}">${p.cantidad}</span>`;
   const soldBtn=`<button class="adm-sold-btn" onclick="admSoldOut('${p.codigo}')">Marcar agotado</button>`;
-  const minusBtn=p.cantidad>=2?`<button class="adm-qty-btn" onclick="admReduceQty('${p.codigo}')">-1</button>`:'';
+  const minusBtn=orig>1?`<button class="adm-qty-btn" onclick="admReduceQty('${p.codigo}')">-1</button>`:'';
   const plusBtn=p.cantidad<orig?`<button class="adm-qty-btn" onclick="admIncreaseQty('${p.codigo}')">+1</button>`:'';
-  return `${num}<div style="display:flex;gap:4px;margin-top:5px;justify-content:center;flex-wrap:wrap">${minusBtn}${plusBtn}${soldBtn}</div>`;
+  return `${num}<div style="display:flex;gap:4px;margin-top:5px;justify-content:center;flex-wrap:wrap">${plusBtn}${minusBtn}${soldBtn}</div>`;
 }
 function admReduceQty(cod){
-  const p=inv.find(x=>x.codigo===cod); if(!p||p.cantidad<=1) return;
+  const p=inv.find(x=>x.codigo===cod); if(!p) return;
+  if(p.cantidad<=1){ admSoldOut(cod); return; }
   const s=JSON.parse(localStorage.getItem(LSK+'_qty')||'{}');
   s[cod]=p.cantidad-1; localStorage.setItem(LSK+'_qty',JSON.stringify(s));
   p.cantidad=p.cantidad-1;

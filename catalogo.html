@@ -193,7 +193,7 @@ footer{background:#222;color:#777;text-align:center;padding:20px 16px 30px;font-
       <option value="">Todos los tipos</option><option value="bermuda">Bermuda</option><option value="bividi">Bividi</option><option value="buzo">Buzo</option><option value="cafarena">Cafarena</option><option value="camisa m/c">Camisa M/C</option><option value="camisa m/l">Camisa M/L</option><option value="chaqueta">Chaqueta</option><option value="cortaviento">Cortaviento</option><option value="leggins">Leggins</option><option value="pantalon">Pantalon</option><option value="polera">Polera</option><option value="polera + buzo">Polera + Buzo</option><option value="polera m/l">Polera M/L</option><option value="polo bividi">Polo Bividi</option><option value="polo m/c">Polo M/C</option><option value="polo m/l">Polo M/L</option><option value="polom/c">Polom/C</option><option value="short">Short</option>
     </select>
     <select class="fsel" id="sel-ta" onchange="applyF()">
-      <option value="">Todas las tallas</option><option value="09 meses">09 meses</option><option value="12-18 meses">12-18 meses</option><option value="18 meses">18 meses</option><option value="18-24 meses">18-24 meses</option><option value="24-36 meses">24-36 meses</option><option value="24 meses">24 meses</option><option value="01">01</option><option value="02">02</option><option value="04">04</option><option value="06">06</option><option value="08">08</option><option value="10">10</option><option value="12">12</option><option value="14">14</option><option value="120">120</option><option value="130">130</option><option value="130/60">130/60</option><option value="90/52">90/52</option>
+      <option value="">Todas las tallas</option><option value="09 meses">09 meses</option><option value="12-18 meses">12-18 meses</option><option value="18-24 meses">18-24 meses</option><option value="18 meses">18 meses</option><option value="24 meses">24 meses</option><option value="24-36 meses">24-36 meses</option><option value="01">01</option><option value="02">02</option><option value="04">04</option><option value="06">06</option><option value="08">08</option><option value="10">10</option><option value="12">12</option><option value="14">14</option><option value="120">120</option><option value="130">130</option><option value="90/52">90/52</option><option value="130/60">130/60</option>
     </select>
   </div>
   <div class="srch">
@@ -276,6 +276,7 @@ const WA = '51976235299';
 const PWD_HASH = 'eb09a17085982cf7a7b1c8c26538de53067a208eb311309a1797e14b8787113a';
 const KW_HASH  = 'b8b8eb83374c0bf3b1c3224159f6119dbfff1b7ed6dfecdd80d4e8a895790a34';
 const LSK = 'lk_v2';
+const VER = 'v3';
 const PH  = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect fill='%23f0f0f0' width='200' height='200'/%3E%3Ctext fill='%23ccc' x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='48'%3E%3F%3C/text%3E%3C/svg%3E";
 
 async function sha256(str){
@@ -284,6 +285,10 @@ async function sha256(str){
 }
 
 function init(){
+  if(localStorage.getItem('lk_version')!==VER){
+    localStorage.clear();
+    localStorage.setItem('lk_version',VER);
+  }
   const saved    = JSON.parse(localStorage.getItem(LSK)||'{}');
   const savedQty = JSON.parse(localStorage.getItem(LSK+'_qty')||'{}');
   inv = INV_BASE.map(p=>({
@@ -549,12 +554,13 @@ function admQtyCellInner(p){
   const numW=p.cantidad>1?'700':'400';
   const num=`<span style="font-weight:${numW};color:${numCol}">${p.cantidad}</span>`;
   const soldBtn=`<button class="adm-sold-btn" onclick="admSoldOut('${p.codigo}')">Marcar agotado</button>`;
-  const minusBtn=p.cantidad>=2?`<button class="adm-qty-btn" onclick="admReduceQty('${p.codigo}')">-1</button>`:'';
+  const minusBtn=orig>1?`<button class="adm-qty-btn" onclick="admReduceQty('${p.codigo}')">-1</button>`:'';
   const plusBtn=p.cantidad<orig?`<button class="adm-qty-btn" onclick="admIncreaseQty('${p.codigo}')">+1</button>`:'';
-  return `${num}<div style="display:flex;gap:4px;margin-top:5px;justify-content:center;flex-wrap:wrap">${minusBtn}${plusBtn}${soldBtn}</div>`;
+  return `${num}<div style="display:flex;gap:4px;margin-top:5px;justify-content:center;flex-wrap:wrap">${plusBtn}${minusBtn}${soldBtn}</div>`;
 }
 function admReduceQty(cod){
-  const p=inv.find(x=>x.codigo===cod); if(!p||p.cantidad<=1) return;
+  const p=inv.find(x=>x.codigo===cod); if(!p) return;
+  if(p.cantidad<=1){ admSoldOut(cod); return; }
   const s=JSON.parse(localStorage.getItem(LSK+'_qty')||'{}');
   s[cod]=p.cantidad-1; localStorage.setItem(LSK+'_qty',JSON.stringify(s));
   p.cantidad=p.cantidad-1;
