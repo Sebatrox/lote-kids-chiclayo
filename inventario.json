@@ -2,12 +2,12 @@
   {
     "codigo": "0001",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo shaquell",
     "talla": "18-24 meses",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 19.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0001_1.jpg",
@@ -17,12 +17,12 @@
   {
     "codigo": "0002",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo shaquell",
     "talla": "18-24 meses",
     "color": "melange",
     "cantidad": 1,
-    "precio": 19.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0002_1.jpg",
@@ -32,12 +32,12 @@
   {
     "codigo": "0003",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "oslo musof",
     "talla": "12-18 meses",
     "color": "rojo/blanco",
     "cantidad": 1,
-    "precio": 18.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0003_1.jpg",
@@ -47,12 +47,12 @@
   {
     "codigo": "0004",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "oslo musof",
     "talla": "18-24 meses",
     "color": "rojo/blanco",
     "cantidad": 1,
-    "precio": 18.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0004_1.jpg",
@@ -62,12 +62,12 @@
   {
     "codigo": "0005",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo shaquell",
     "talla": "12-18 meses",
     "color": "melange",
     "cantidad": 1,
-    "precio": 19.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0005_1.jpg",
@@ -77,12 +77,12 @@
   {
     "codigo": "0006",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo shaquell",
     "talla": "24-36 meses",
     "color": "azul",
     "cantidad": 1,
-    "precio": 19.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0006_1.jpg",
@@ -92,12 +92,12 @@
   {
     "codigo": "0007",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo shaquell",
     "talla": "01",
     "color": "azul",
     "cantidad": 1,
-    "precio": 19.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0007_1.jpg",
@@ -107,12 +107,12 @@
   {
     "codigo": "0008",
     "genero": "niño",
-    "tipo": "Camisa M/L",
+    "tipo": "camisa m/l",
     "modelo": "oslo sargent",
     "talla": "18-24 meses",
     "color": "azul/guinda",
     "cantidad": 1,
-    "precio": 28.0,
+    "precio": 48.0,
     "estado": "disponible",
     "fotos": [
       "0008_1.jpg",
@@ -122,12 +122,12 @@
   {
     "codigo": "0009",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "pepitoz mi amigo dragon",
     "talla": "09 meses",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0009_1.jpg",
@@ -137,12 +137,12 @@
   {
     "codigo": "0010",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "all basics",
     "talla": "18 meses",
     "color": "melange",
     "cantidad": 1,
-    "precio": 33.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0010_1.jpg",
@@ -152,12 +152,12 @@
   {
     "codigo": "0011",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "all basics",
     "talla": "18 meses",
     "color": "verde agua",
     "cantidad": 1,
-    "precio": 33.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0011_1.jpg",
@@ -167,12 +167,12 @@
   {
     "codigo": "0012",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "abracitos trex rocks",
     "talla": "02",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 29.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0012_1.jpg",
@@ -182,12 +182,12 @@
   {
     "codigo": "0013",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "abracitos trex rocks",
     "talla": "02",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 29.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0013_1.jpg",
@@ -197,12 +197,12 @@
   {
     "codigo": "0014",
     "genero": "niño",
-    "tipo": "Pantalon",
+    "tipo": "pantalon",
     "modelo": "abracitos paul",
     "talla": "02",
     "color": "beige",
     "cantidad": 1,
-    "precio": 51.0,
+    "precio": 52.0,
     "estado": "disponible",
     "fotos": [
       "0014_1.jpg",
@@ -212,12 +212,12 @@
   {
     "codigo": "0015",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos disney mickey selfie",
     "talla": "02",
     "color": "gris",
     "cantidad": 1,
-    "precio": 16.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0015_1.jpg",
@@ -227,12 +227,12 @@
   {
     "codigo": "0016",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos spiderman",
     "talla": "02",
     "color": "gris",
     "cantidad": 1,
-    "precio": 16.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0016_1.jpg",
@@ -242,12 +242,12 @@
   {
     "codigo": "0017",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "abracitos trex rocks",
     "talla": "04",
     "color": "blanco",
     "cantidad": 2,
-    "precio": 29.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0017_1.jpg",
@@ -257,12 +257,12 @@
   {
     "codigo": "0018",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "abracitos trex rocks",
     "talla": "04",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 29.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0018_1.jpg",
@@ -272,12 +272,12 @@
   {
     "codigo": "0019",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo yker",
     "talla": "04",
     "color": "azul",
     "cantidad": 1,
-    "precio": 25.0,
+    "precio": 28.0,
     "estado": "disponible",
     "fotos": [
       "0019_1.jpg",
@@ -287,12 +287,12 @@
   {
     "codigo": "0020",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "chamitos avengers assemble",
     "talla": "04",
     "color": "azul",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0020_1.jpg",
@@ -302,12 +302,12 @@
   {
     "codigo": "0021",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "chamitos super mario",
     "talla": "04",
     "color": "azul",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0021_1.jpg",
@@ -317,12 +317,12 @@
   {
     "codigo": "0022",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "oslo calet",
     "talla": "04",
     "color": "azul",
     "cantidad": 1,
-    "precio": 40.0,
+    "precio": 42.0,
     "estado": "disponible",
     "fotos": [
       "0022_1.jpg",
@@ -332,12 +332,12 @@
   {
     "codigo": "0023",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "oslo howard",
     "talla": "04",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 37.0,
+    "precio": 42.0,
     "estado": "disponible",
     "fotos": [
       "0023_1.jpg",
@@ -347,12 +347,12 @@
   {
     "codigo": "0024",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "pepitoz lagartija sacando lengua fina",
     "talla": "04",
     "color": "verde oscuro",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0024_1.jpg",
@@ -362,12 +362,12 @@
   {
     "codigo": "0025",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "urb kids boy radio",
     "talla": "04",
     "color": "amarillo mostaza",
     "cantidad": 1,
-    "precio": 21.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0025_1.jpg",
@@ -377,12 +377,12 @@
   {
     "codigo": "0026",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos spiderman",
     "talla": "04",
     "color": "gris",
     "cantidad": 1,
-    "precio": 16.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0026_1.jpg",
@@ -392,12 +392,12 @@
   {
     "codigo": "0027",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos giotto",
     "talla": "04",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 19.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0027_1.jpg",
@@ -407,12 +407,12 @@
   {
     "codigo": "0028",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos oscar",
     "talla": "04",
     "color": "azul",
     "cantidad": 1,
-    "precio": 20.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0028_1.jpg",
@@ -422,12 +422,12 @@
   {
     "codigo": "0029",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "oslo hanks",
     "talla": "04",
     "color": "azul",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0029_1.jpg",
@@ -437,12 +437,12 @@
   {
     "codigo": "0030",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "oslo pharker",
     "talla": "04",
     "color": "azul",
     "cantidad": 1,
-    "precio": 46.0,
+    "precio": 48.0,
     "estado": "disponible",
     "fotos": [
       "0030_1.jpg",
@@ -452,12 +452,12 @@
   {
     "codigo": "0031",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "oslo forlan",
     "talla": "04",
     "color": "melange",
     "cantidad": 1,
-    "precio": 17.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0031_1.jpg",
@@ -467,12 +467,12 @@
   {
     "codigo": "0032",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "oslo forlan",
     "talla": "04",
     "color": "azul",
     "cantidad": 1,
-    "precio": 17.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0032_1.jpg",
@@ -482,12 +482,12 @@
   {
     "codigo": "0033",
     "genero": "niño",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "abracitos stefano",
     "talla": "04",
     "color": "negro",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0033_1.jpg",
@@ -497,12 +497,12 @@
   {
     "codigo": "0034",
     "genero": "niño",
-    "tipo": "Bividi",
+    "tipo": "polo bividi",
     "modelo": "oslo jhoe",
     "talla": "04",
     "color": "azul",
     "cantidad": 1,
-    "precio": 18.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0034_1.jpg",
@@ -512,12 +512,12 @@
   {
     "codigo": "0035",
     "genero": "niño",
-    "tipo": "Camisa M/C",
+    "tipo": "camisa m/c",
     "modelo": "oslo deriam",
     "talla": "04",
     "color": "turqueza",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 29.0,
     "estado": "disponible",
     "fotos": [
       "0035_1.jpg",
@@ -527,12 +527,12 @@
   {
     "codigo": "0036",
     "genero": "niño",
-    "tipo": "Camisa M/C",
+    "tipo": "camisa m/c",
     "modelo": "abracitos chanler",
     "talla": "04",
-    "color": "blanco",
+    "color": "blanca",
     "cantidad": 1,
-    "precio": 26.0,
+    "precio": 29.0,
     "estado": "disponible",
     "fotos": [
       "0036_1.jpg",
@@ -542,12 +542,12 @@
   {
     "codigo": "0037",
     "genero": "niño",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "abracitos franc",
     "talla": "06",
     "color": "azul",
     "cantidad": 1,
-    "precio": 33.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0037_1.jpg",
@@ -557,12 +557,12 @@
   {
     "codigo": "0038",
     "genero": "niño",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "abracitos maurow",
     "talla": "06",
     "color": "beige",
     "cantidad": 1,
-    "precio": 28.0,
+    "precio": 30.0,
     "estado": "disponible",
     "fotos": [
       "0038_1.jpg",
@@ -572,12 +572,12 @@
   {
     "codigo": "0039",
     "genero": "niño",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca",
     "talla": "06",
     "color": "naranja ladrillo",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0039_1.jpg",
@@ -587,12 +587,12 @@
   {
     "codigo": "0040",
     "genero": "niño",
-    "tipo": "Short",
+    "tipo": "bermuda",
     "modelo": "oslo conher",
     "talla": "06",
     "color": "azul/verde",
     "cantidad": 1,
-    "precio": 47.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0040_1.jpg",
@@ -602,12 +602,12 @@
   {
     "codigo": "0041",
     "genero": "niño",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "abracitos stefano",
     "talla": "06",
     "color": "negro",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0041_1.jpg",
@@ -617,12 +617,12 @@
   {
     "codigo": "0042",
     "genero": "niño",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "abracitos ariel",
     "talla": "06",
     "color": "rojo rayas",
     "cantidad": 1,
-    "precio": 23.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0042_1.jpg",
@@ -632,12 +632,12 @@
   {
     "codigo": "0043",
     "genero": "niño",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca",
     "talla": "06",
     "color": "azul noche",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0043_1.jpg",
@@ -647,12 +647,12 @@
   {
     "codigo": "0044",
     "genero": "niño",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "abracitos franc",
     "talla": "06",
     "color": "azul noche",
     "cantidad": 1,
-    "precio": 33.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0044_1.jpg",
@@ -662,12 +662,12 @@
   {
     "codigo": "0045",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "abracitos elio",
     "talla": "06",
     "color": "mostaza",
     "cantidad": 1,
-    "precio": 27.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0045_1.jpg",
@@ -677,12 +677,12 @@
   {
     "codigo": "0046",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "abracitos yave",
     "talla": "06",
     "color": "melange",
     "cantidad": 1,
-    "precio": 44.0,
+    "precio": 45.0,
     "estado": "disponible",
     "fotos": [
       "0046_1.jpg",
@@ -692,12 +692,12 @@
   {
     "codigo": "0047",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "pepitoz cabeza dinosaurio verde",
     "talla": "04",
     "color": "plomo",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0047_1.jpg",
@@ -707,12 +707,12 @@
   {
     "codigo": "0048",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "pepitoz dinosaurio lentejuelas",
     "talla": "06",
     "color": "azul noche",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0048_1.jpg",
@@ -722,12 +722,12 @@
   {
     "codigo": "0049",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "abracitos rian",
     "talla": "06",
     "color": "verde militar",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0049_1.jpg",
@@ -737,12 +737,12 @@
   {
     "codigo": "0050",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "abracitos yave",
     "talla": "06",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 44.0,
+    "precio": 45.0,
     "estado": "disponible",
     "fotos": [
       "0050_1.jpg",
@@ -752,12 +752,12 @@
   {
     "codigo": "0051",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "pepitoz dinosaurio con puas verdes fosforecentes",
     "talla": "06",
     "color": "plomo",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0051_1.jpg",
@@ -767,12 +767,12 @@
   {
     "codigo": "0052",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "oslo calet",
     "talla": "06",
     "color": "azul noche",
     "cantidad": 1,
-    "precio": 40.0,
+    "precio": 42.0,
     "estado": "disponible",
     "fotos": [
       "0052_1.jpg",
@@ -782,12 +782,12 @@
   {
     "codigo": "0053",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "oslo jhazon",
     "talla": "06",
     "color": "azul noche",
     "cantidad": 1,
-    "precio": 35.0,
+    "precio": 42.0,
     "estado": "disponible",
     "fotos": [
       "0053_1.jpg",
@@ -797,12 +797,12 @@
   {
     "codigo": "0054",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera m/l",
     "modelo": "pepitoz super mario",
     "talla": "06",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0054_1.jpg",
@@ -812,12 +812,12 @@
   {
     "codigo": "0055",
     "genero": "niño",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "adidas",
     "talla": "06",
     "color": "p/rojo b/negro",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0055_1.jpg"
@@ -826,12 +826,12 @@
   {
     "codigo": "0056",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "oslo forlan",
     "talla": "06",
     "color": "melange",
     "cantidad": 1,
-    "precio": 17.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0056_1.jpg",
@@ -841,12 +841,12 @@
   {
     "codigo": "0057",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos yrton",
     "talla": "06",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 20.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0057_1.jpg",
@@ -856,12 +856,12 @@
   {
     "codigo": "0058",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polom/c",
     "modelo": "mewe kids submarino life",
     "talla": "06",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0058_1.jpg",
@@ -871,12 +871,12 @@
   {
     "codigo": "0059",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "urb kids boy radio",
     "talla": "06",
     "color": "mostaza",
     "cantidad": 1,
-    "precio": 21.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0059_1.jpg",
@@ -886,12 +886,12 @@
   {
     "codigo": "0060",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos giotto",
     "talla": "06",
-    "color": "blanco",
+    "color": "blanco california life",
     "cantidad": 1,
-    "precio": 19.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0060_1.jpg",
@@ -901,12 +901,12 @@
   {
     "codigo": "0061",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos yrton",
     "talla": "06",
-    "color": "blanco",
+    "color": "blanco stand out",
     "cantidad": 1,
-    "precio": 20.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0061_1.jpg",
@@ -916,12 +916,12 @@
   {
     "codigo": "0062",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "oslo forlan",
     "talla": "06",
     "color": "azul claro",
     "cantidad": 1,
-    "precio": 17.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0062_1.jpg",
@@ -931,12 +931,12 @@
   {
     "codigo": "0063",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "oslo luka",
     "talla": "06",
     "color": "azul rojo rayas",
     "cantidad": 1,
-    "precio": 18.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0063_1.jpg",
@@ -946,12 +946,12 @@
   {
     "codigo": "0064",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos disney mickey selfie",
     "talla": "06",
     "color": "gris",
     "cantidad": 1,
-    "precio": 16.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0064_1.jpg",
@@ -961,12 +961,12 @@
   {
     "codigo": "0065",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos yrton",
     "talla": "06",
-    "color": "celeste",
+    "color": "celeste stand out",
     "cantidad": 1,
-    "precio": 20.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0065_1.jpg",
@@ -976,12 +976,12 @@
   {
     "codigo": "0066",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "oslo pharker",
     "talla": "06",
     "color": "azul claro",
     "cantidad": 1,
-    "precio": 46.0,
+    "precio": 48.0,
     "estado": "disponible",
     "fotos": [
       "0066_1.jpg",
@@ -991,12 +991,12 @@
   {
     "codigo": "0067",
     "genero": "niño",
-    "tipo": "Bividi",
+    "tipo": "bividi",
     "modelo": "abracirtos fabian",
     "talla": "06",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 18.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0067_1.jpg",
@@ -1006,12 +1006,12 @@
   {
     "codigo": "0068",
     "genero": "niño",
-    "tipo": "Bividi",
+    "tipo": "bividi",
     "modelo": "oslo jhoe",
     "talla": "06",
     "color": "azul claro",
     "cantidad": 1,
-    "precio": 18.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0068_1.jpg",
@@ -1021,12 +1021,12 @@
   {
     "codigo": "0069",
     "genero": "niño",
-    "tipo": "Bividi",
+    "tipo": "bividi",
     "modelo": "abracitos darwin",
     "talla": "06",
     "color": "verde agua",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0069_1.jpg",
@@ -1036,12 +1036,12 @@
   {
     "codigo": "0070",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "pepitoz cebra i ma very coll boy",
     "talla": "06",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0070_1.jpg",
@@ -1051,12 +1051,12 @@
   {
     "codigo": "0071",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "chamitos avengers",
     "talla": "06",
-    "color": "azul noche",
+    "color": "azul  noche",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0071_1.jpg",
@@ -1066,12 +1066,12 @@
   {
     "codigo": "0072",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo byrnes",
     "talla": "06",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 46.0,
+    "precio": 48.0,
     "estado": "disponible",
     "fotos": [
       "0072_1.jpg",
@@ -1081,12 +1081,12 @@
   {
     "codigo": "0073",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo byrnes",
     "talla": "06",
     "color": "melange",
     "cantidad": 1,
-    "precio": 46.0,
+    "precio": 48.0,
     "estado": "disponible",
     "fotos": [
       "0073_1.jpg",
@@ -1096,12 +1096,12 @@
   {
     "codigo": "0074",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "chamitos mario bross",
     "talla": "06",
     "color": "azulino",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0074_1.jpg",
@@ -1111,12 +1111,12 @@
   {
     "codigo": "0075",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo yker",
     "talla": "06",
     "color": "azul noche",
     "cantidad": 1,
-    "precio": 25.0,
+    "precio": 28.0,
     "estado": "disponible",
     "fotos": [
       "0075_1.jpg",
@@ -1126,12 +1126,12 @@
   {
     "codigo": "0076",
     "genero": "niño",
-    "tipo": "Camisa M/C",
+    "tipo": "camisa m/c",
     "modelo": "oslo deriam",
     "talla": "06",
     "color": "turqueza",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 29.0,
     "estado": "disponible",
     "fotos": [
       "0076_1.jpg",
@@ -1141,12 +1141,12 @@
   {
     "codigo": "0077",
     "genero": "niño",
-    "tipo": "Camisa M/C",
+    "tipo": "camisa m/c",
     "modelo": "abracitos chanler",
     "talla": "06",
     "color": "blanco/azul",
     "cantidad": 1,
-    "precio": 26.0,
+    "precio": 29.0,
     "estado": "disponible",
     "fotos": [
       "0077_1.jpg",
@@ -1156,12 +1156,12 @@
   {
     "codigo": "0078",
     "genero": "niño",
-    "tipo": "Camisa M/C",
+    "tipo": "camisa m/c",
     "modelo": "abracitos manuel",
     "talla": "06",
     "color": "naranja ladrillo",
     "cantidad": 1,
-    "precio": 26.0,
+    "precio": 29.0,
     "estado": "disponible",
     "fotos": [
       "0078_1.jpg",
@@ -1171,12 +1171,12 @@
   {
     "codigo": "0079",
     "genero": "niño",
-    "tipo": "Camisa M/L",
+    "tipo": "camisa m/l",
     "modelo": "abracitos felipino",
     "talla": "06",
     "color": "blanco/azul",
     "cantidad": 1,
-    "precio": 46.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0079_1.jpg",
@@ -1186,12 +1186,12 @@
   {
     "codigo": "0080",
     "genero": "niño",
-    "tipo": "Short",
+    "tipo": "bermuda",
     "modelo": "oslo conher",
     "talla": "08",
     "color": "azulino/verde",
     "cantidad": 1,
-    "precio": 47.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0080_1.jpg",
@@ -1201,12 +1201,12 @@
   {
     "codigo": "0081",
     "genero": "niño",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "abracitos maurow",
     "talla": "08",
     "color": "azul",
     "cantidad": 1,
-    "precio": 28.0,
+    "precio": 30.0,
     "estado": "disponible",
     "fotos": [
       "0081_1.jpg",
@@ -1216,12 +1216,12 @@
   {
     "codigo": "0082",
     "genero": "niño",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "abracitos franc",
     "talla": "08",
     "color": "azul",
     "cantidad": 2,
-    "precio": 33.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0082_1.jpg",
@@ -1231,12 +1231,12 @@
   {
     "codigo": "0083",
     "genero": "niño",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "abracitos ariel",
     "talla": "08",
     "color": "rojo rayas",
     "cantidad": 1,
-    "precio": 23.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0083_1.jpg",
@@ -1246,12 +1246,12 @@
   {
     "codigo": "0084",
     "genero": "niño",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "abracitos stefano",
     "talla": "08",
     "color": "negro",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0084_1.jpg",
@@ -1261,12 +1261,12 @@
   {
     "codigo": "0085",
     "genero": "niño",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca cht",
     "talla": "08",
     "color": "negro",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0085_1.jpg",
@@ -1276,12 +1276,12 @@
   {
     "codigo": "0086",
     "genero": "niño",
-    "tipo": "Pantalon",
+    "tipo": "pantalon",
     "modelo": "abracitos pablo",
     "talla": "08",
     "color": "azul",
     "cantidad": 1,
-    "precio": 50.0,
+    "precio": 52.0,
     "estado": "disponible",
     "fotos": [
       "0086_1.jpg",
@@ -1291,12 +1291,12 @@
   {
     "codigo": "0087",
     "genero": "niño",
-    "tipo": "Camisa M/C",
+    "tipo": "camisa m/c",
     "modelo": "abracitos chanler",
     "talla": "08",
     "color": "blanco/azul",
     "cantidad": 1,
-    "precio": 26.0,
+    "precio": 29.0,
     "estado": "disponible",
     "fotos": [
       "0087_1.jpg",
@@ -1306,12 +1306,12 @@
   {
     "codigo": "0088",
     "genero": "niño",
-    "tipo": "Camisa M/C",
+    "tipo": "camisa m/c",
     "modelo": "abracitos manuel",
     "talla": "08",
     "color": "negro",
     "cantidad": 1,
-    "precio": 26.0,
+    "precio": 29.0,
     "estado": "disponible",
     "fotos": [
       "0088_1.jpg",
@@ -1321,12 +1321,12 @@
   {
     "codigo": "0089",
     "genero": "niño",
-    "tipo": "Camisa M/C",
+    "tipo": "camisa m/c",
     "modelo": "abracitos manuel",
     "talla": "08",
     "color": "acero",
     "cantidad": 1,
-    "precio": 26.0,
+    "precio": 29.0,
     "estado": "disponible",
     "fotos": [
       "0089_1.jpg",
@@ -1336,12 +1336,12 @@
   {
     "codigo": "0090",
     "genero": "niño",
-    "tipo": "Camisa M/C",
+    "tipo": "camisa m/c",
     "modelo": "abracitos manuel",
     "talla": "08",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 26.0,
+    "precio": 29.0,
     "estado": "disponible",
     "fotos": [
       "0090_1.jpg",
@@ -1351,12 +1351,12 @@
   {
     "codigo": "0091",
     "genero": "niño",
-    "tipo": "Camisa M/L",
+    "tipo": "camisa m/l",
     "modelo": "abracitos felipino",
     "talla": "08",
     "color": "blanco/azul",
     "cantidad": 1,
-    "precio": 46.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0091_1.jpg",
@@ -1366,12 +1366,12 @@
   {
     "codigo": "0092",
     "genero": "niño",
-    "tipo": "Camisa M/L",
+    "tipo": "camisa m/l",
     "modelo": "abracitos max",
     "talla": "08",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 46.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0092_1.jpg",
@@ -1381,12 +1381,12 @@
   {
     "codigo": "0093",
     "genero": "niño",
-    "tipo": "Chaqueta",
+    "tipo": "chaqueta",
     "modelo": "abracitos elmer",
     "talla": "08",
     "color": "camel",
     "cantidad": 1,
-    "precio": 25.0,
+    "precio": 45.0,
     "estado": "disponible",
     "fotos": [
       "0093_1.jpg",
@@ -1396,12 +1396,12 @@
   {
     "codigo": "0094",
     "genero": "niño",
-    "tipo": "Chaqueta",
+    "tipo": "chaqueta",
     "modelo": "abracitos kell con capucha",
     "talla": "08",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 38.0,
+    "precio": 45.0,
     "estado": "disponible",
     "fotos": [
       "0094_1.jpg",
@@ -1411,12 +1411,12 @@
   {
     "codigo": "0095",
     "genero": "niño",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "adidas",
     "talla": "08",
     "color": "rojo",
     "cantidad": 2,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0095_1.jpg"
@@ -1425,12 +1425,12 @@
   {
     "codigo": "0096",
     "genero": "niño",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "adidas",
     "talla": "08",
     "color": "negro",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0096_1.jpg"
@@ -1439,12 +1439,12 @@
   {
     "codigo": "0097",
     "genero": "niño",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "adidas",
     "talla": "08",
-    "color": "azulino/azul marino",
+    "color": "azulino / azul marino",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0097_1.jpg"
@@ -1453,12 +1453,12 @@
   {
     "codigo": "0098",
     "genero": "niño",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "liga de la justicia",
     "talla": "08",
     "color": "rojo / negro",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0098_1.jpg"
@@ -1467,12 +1467,12 @@
   {
     "codigo": "0099",
     "genero": "niño",
-    "tipo": "Bividi",
+    "tipo": "bividi",
     "modelo": "abracitos fabian",
     "talla": "08",
     "color": "verde agua",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0099_1.jpg",
@@ -1482,12 +1482,12 @@
   {
     "codigo": "0100",
     "genero": "niño",
-    "tipo": "Bividi",
+    "tipo": "bividi",
     "modelo": "abracitos fabian",
     "talla": "08",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0100_1.jpg"
@@ -1496,12 +1496,12 @@
   {
     "codigo": "0101",
     "genero": "niño",
-    "tipo": "Bividi",
+    "tipo": "bividi",
     "modelo": "oslo jhoe",
     "talla": "08",
     "color": "verde claro",
     "cantidad": 1,
-    "precio": 18.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0101_1.jpg",
@@ -1511,12 +1511,12 @@
   {
     "codigo": "0102",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "abracitos rian",
     "talla": "08",
     "color": "verde militar",
     "cantidad": 1,
-    "precio": 27.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0102_1.jpg",
@@ -1526,12 +1526,12 @@
   {
     "codigo": "0103",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "oslo calet",
     "talla": "08",
     "color": "azul",
     "cantidad": 1,
-    "precio": 40.0,
+    "precio": 42.0,
     "estado": "disponible",
     "fotos": [
       "0103_1.jpg",
@@ -1541,12 +1541,12 @@
   {
     "codigo": "0104",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "pepitoz dinosaurio explorers",
     "talla": "08",
     "color": "gris/azul brillante",
     "cantidad": 1,
-    "precio": 35.0,
+    "precio": 38.0,
     "estado": "disponible",
     "fotos": [
       "0104_1.jpg",
@@ -1556,12 +1556,12 @@
   {
     "codigo": "0105",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "abracitos elio",
     "talla": "08",
     "color": "verde cemento",
     "cantidad": 1,
-    "precio": 27.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0105_1.jpg",
@@ -1571,12 +1571,12 @@
   {
     "codigo": "0106",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "pepitoz lagartija sacando lengua fina",
     "talla": "08",
     "color": "verde oscuro",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0106_1.jpg",
@@ -1586,12 +1586,12 @@
   {
     "codigo": "0107",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "oslo jhazon",
     "talla": "08",
     "color": "azul claro",
     "cantidad": 1,
-    "precio": 35.0,
+    "precio": 42.0,
     "estado": "disponible",
     "fotos": [
       "0107_1.jpg",
@@ -1601,12 +1601,12 @@
   {
     "codigo": "0108",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "pepitoz cabeza dinosaurio verde",
     "talla": "08",
     "color": "plomo",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0108_1.jpg",
@@ -1616,12 +1616,12 @@
   {
     "codigo": "0109",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "abracitos yave",
     "talla": "08",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 39.0,
+    "precio": 40.0,
     "estado": "disponible",
     "fotos": [
       "0109_1.jpg",
@@ -1631,12 +1631,12 @@
   {
     "codigo": "0110",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "abracitos yave",
     "talla": "08",
     "color": "melange",
     "cantidad": 1,
-    "precio": 39.0,
+    "precio": 40.0,
     "estado": "disponible",
     "fotos": [
       "0110_1.jpg",
@@ -1646,12 +1646,12 @@
   {
     "codigo": "0111",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos disney mickey selfie",
     "talla": "08",
     "color": "gris",
     "cantidad": 1,
-    "precio": 16.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0111_1.jpg",
@@ -1661,12 +1661,12 @@
   {
     "codigo": "0112",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos yrton",
     "talla": "08",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 20.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0112_1.jpg",
@@ -1676,12 +1676,12 @@
   {
     "codigo": "0113",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos oscar",
     "talla": "08",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 20.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0113_1.jpg",
@@ -1691,12 +1691,12 @@
   {
     "codigo": "0114",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos spiderman",
     "talla": "08",
     "color": "gris",
     "cantidad": 1,
-    "precio": 16.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0114_1.jpg",
@@ -1706,12 +1706,12 @@
   {
     "codigo": "0115",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos oscar",
     "talla": "08",
     "color": "azul",
     "cantidad": 1,
-    "precio": 20.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0115_1.jpg",
@@ -1721,12 +1721,12 @@
   {
     "codigo": "0116",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "oslo forlan",
     "talla": "08",
     "color": "melange",
     "cantidad": 1,
-    "precio": 17.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0116_1.jpg",
@@ -1736,12 +1736,12 @@
   {
     "codigo": "0117",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "oslo pharker",
     "talla": "08",
     "color": "azul claro",
     "cantidad": 1,
-    "precio": 46.0,
+    "precio": 48.0,
     "estado": "disponible",
     "fotos": [
       "0117_1.jpg",
@@ -1751,12 +1751,12 @@
   {
     "codigo": "0118",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo byrnes",
     "talla": "08",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 46.0,
+    "precio": 48.0,
     "estado": "disponible",
     "fotos": [
       "0118_1.jpg",
@@ -1766,12 +1766,12 @@
   {
     "codigo": "0119",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "urb kids boy no way",
     "talla": "08",
     "color": "acero",
     "cantidad": 1,
-    "precio": 21.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0119_1.jpg",
@@ -1781,12 +1781,12 @@
   {
     "codigo": "0120",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "all basics fórmula 1",
     "talla": "08",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0120_1.jpg",
@@ -1796,12 +1796,12 @@
   {
     "codigo": "0121",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "all basisc oso skate surf",
     "talla": "08",
     "color": "verde",
     "cantidad": 1,
-    "precio": 21.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0121_1.jpg",
@@ -1811,12 +1811,12 @@
   {
     "codigo": "0122",
     "genero": "niño",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "abracitos franc",
     "talla": "10",
     "color": "azul",
     "cantidad": 1,
-    "precio": 33.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0122_1.jpg",
@@ -1826,12 +1826,12 @@
   {
     "codigo": "0123",
     "genero": "niño",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca cht",
     "talla": "10",
     "color": "negro",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0123_1.jpg",
@@ -1841,12 +1841,12 @@
   {
     "codigo": "0124",
     "genero": "niño",
-    "tipo": "Short",
+    "tipo": "bermuda",
     "modelo": "oslo conher",
     "talla": "10",
-    "color": "azulino/verde",
+    "color": "azulino verde",
     "cantidad": 1,
-    "precio": 47.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0124_1.jpg",
@@ -1856,12 +1856,12 @@
   {
     "codigo": "0125",
     "genero": "niño",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "abracitos christ",
     "talla": "10",
     "color": "melange",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0125_1.jpg",
@@ -1871,12 +1871,12 @@
   {
     "codigo": "0126",
     "genero": "niño",
-    "tipo": "Pantalon",
+    "tipo": "pantalon",
     "modelo": "abracitos pablo",
     "talla": "10",
     "color": "beige",
     "cantidad": 1,
-    "precio": 50.0,
+    "precio": 52.0,
     "estado": "disponible",
     "fotos": [
       "0126_1.jpg",
@@ -1886,12 +1886,12 @@
   {
     "codigo": "0127",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "pepitoz listen",
     "talla": "10",
     "color": "guinda",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0127_1.jpg",
@@ -1901,12 +1901,12 @@
   {
     "codigo": "0128",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "pepitoz listen",
     "talla": "10",
     "color": "gris",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0128_1.jpg",
@@ -1916,12 +1916,12 @@
   {
     "codigo": "0129",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "pepitoz egend",
     "talla": "10",
     "color": "guinda",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0129_1.jpg",
@@ -1931,12 +1931,12 @@
   {
     "codigo": "0130",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "pepitoz rayas  cuello camisero",
     "talla": "10",
-    "color": "azul/blanco",
+    "color": "azul /blanco",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0130_1.jpg",
@@ -1946,12 +1946,12 @@
   {
     "codigo": "0131",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "pepitoz rayas  cuello camisero",
     "talla": "10",
-    "color": "celeste/blanco",
+    "color": "celeste /blanco",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0131_1.jpg",
@@ -1961,12 +1961,12 @@
   {
     "codigo": "0132",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "abracitos elio",
     "talla": "10",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 27.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0132_1.jpg",
@@ -1976,12 +1976,12 @@
   {
     "codigo": "0133",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "pepitoz lagartija sacando lengua fina",
     "talla": "10",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0133_1.jpg",
@@ -1991,12 +1991,12 @@
   {
     "codigo": "0134",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "abracitos rian",
     "talla": "10",
     "color": "verde militar",
     "cantidad": 1,
-    "precio": 27.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0134_1.jpg",
@@ -2006,12 +2006,12 @@
   {
     "codigo": "0135",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "abracitos elio",
     "talla": "10",
     "color": "mostaza",
     "cantidad": 1,
-    "precio": 27.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0135_1.jpg",
@@ -2021,12 +2021,12 @@
   {
     "codigo": "0136",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "oslo jhazon",
     "talla": "10",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 35.0,
+    "precio": 42.0,
     "estado": "disponible",
     "fotos": [
       "0136_1.jpg",
@@ -2036,12 +2036,12 @@
   {
     "codigo": "0137",
     "genero": "niño",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "pluto y mickey",
     "talla": "10",
     "color": "p celeste/b negro",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0137_1.jpg"
@@ -2050,12 +2050,12 @@
   {
     "codigo": "0138",
     "genero": "niño",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "color kids adidas",
     "talla": "10",
     "color": "azulino",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0138_1.jpg"
@@ -2064,12 +2064,12 @@
   {
     "codigo": "0139",
     "genero": "niño",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "adidas",
     "talla": "10",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0139_1.jpg"
@@ -2078,12 +2078,12 @@
   {
     "codigo": "0140",
     "genero": "niño",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "liga de la justicia",
     "talla": "10",
     "color": "p verde / b negro",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0140_1.jpg"
@@ -2092,12 +2092,12 @@
   {
     "codigo": "0141",
     "genero": "niño",
-    "tipo": "Bividi",
+    "tipo": "bividi",
     "modelo": "abracitos fabian",
     "talla": "10",
     "color": "verde agua",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0141_1.jpg",
@@ -2107,12 +2107,12 @@
   {
     "codigo": "0142",
     "genero": "niño",
-    "tipo": "Chaqueta",
+    "tipo": "chaqueta",
     "modelo": "abracitos kell con capucha",
     "talla": "10",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 38.0,
+    "precio": 45.0,
     "estado": "disponible",
     "fotos": [
       "0142_1.jpg",
@@ -2122,12 +2122,12 @@
   {
     "codigo": "0143",
     "genero": "niño",
-    "tipo": "Camisa M/C",
+    "tipo": "camisa m/c",
     "modelo": "abracitos manuel",
     "talla": "10",
     "color": "acero",
     "cantidad": 1,
-    "precio": 26.0,
+    "precio": 29.0,
     "estado": "disponible",
     "fotos": [
       "0143_1.jpg",
@@ -2137,12 +2137,12 @@
   {
     "codigo": "0144",
     "genero": "niño",
-    "tipo": "Camisa M/L",
+    "tipo": "camisa m/l",
     "modelo": "abracitos felipino",
     "talla": "10",
     "color": "blanca con calmet",
     "cantidad": 1,
-    "precio": 46.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0144_1.jpg",
@@ -2152,12 +2152,12 @@
   {
     "codigo": "0145",
     "genero": "niño",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "chamitos capitan america",
     "talla": "12",
     "color": "azul noche",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0145_1.jpg",
@@ -2167,12 +2167,12 @@
   {
     "codigo": "0146",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "pepitoz dinosaurio explorers",
     "talla": "12",
     "color": "azul noche /turqueza brillante",
     "cantidad": 1,
-    "precio": 35.0,
+    "precio": 38.0,
     "estado": "disponible",
     "fotos": [
       "0146_1.jpg",
@@ -2182,12 +2182,12 @@
   {
     "codigo": "0147",
     "genero": "niño",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "pepitoz true heard",
     "talla": "14",
     "color": "acero",
     "cantidad": 1,
-    "precio": 32.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0147_1.jpg",
@@ -2197,12 +2197,12 @@
   {
     "codigo": "0148",
     "genero": "niño",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "abracitos stefano",
     "talla": "14",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0148_1.jpg",
@@ -2212,12 +2212,12 @@
   {
     "codigo": "0149",
     "genero": "niño",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "abracitos tiburon",
     "talla": "14",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 20.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0149_1.jpg",
@@ -2227,12 +2227,12 @@
   {
     "codigo": "0150",
     "genero": "niño",
-    "tipo": "Cortaviento",
+    "tipo": "cortaviento",
     "modelo": "gjzy kids koalas",
     "talla": "90/52",
     "color": "amarillo mostaza",
     "cantidad": 1,
-    "precio": 40.0,
+    "precio": 45.0,
     "estado": "disponible",
     "fotos": [
       "0150_1.jpg",
@@ -2242,12 +2242,12 @@
   {
     "codigo": "0151",
     "genero": "niño",
-    "tipo": "Cortaviento",
+    "tipo": "cortaviento",
     "modelo": "gjzy kids dinosaurios",
     "talla": "120",
     "color": "mostaza",
     "cantidad": 1,
-    "precio": 40.0,
+    "precio": 45.0,
     "estado": "disponible",
     "fotos": [
       "0151_1.jpg",
@@ -2257,12 +2257,12 @@
   {
     "codigo": "0152",
     "genero": "niño",
-    "tipo": "Cortaviento",
+    "tipo": "cortaviento",
     "modelo": "gjzy kids dinosaurios",
     "talla": "130",
     "color": "verde militar",
     "cantidad": 1,
-    "precio": 40.0,
+    "precio": 45.0,
     "estado": "disponible",
     "fotos": [
       "0152_1.jpg",
@@ -2272,12 +2272,12 @@
   {
     "codigo": "0153",
     "genero": "niño",
-    "tipo": "Cortaviento",
+    "tipo": "cortaviento",
     "modelo": "gjzy kids  carros",
     "talla": "130/60",
     "color": "azul",
     "cantidad": 1,
-    "precio": 40.0,
+    "precio": 45.0,
     "estado": "disponible",
     "fotos": [
       "0153_1.jpg",
@@ -2287,12 +2287,12 @@
   {
     "codigo": "0154",
     "genero": "niño",
-    "tipo": "Cortaviento",
+    "tipo": "cortaviento",
     "modelo": "gjzy kids dinosaurios",
     "talla": "130/60",
     "color": "crema",
     "cantidad": 1,
-    "precio": 40.0,
+    "precio": 45.0,
     "estado": "disponible",
     "fotos": [
       "0154_1.jpg",
@@ -2302,12 +2302,12 @@
   {
     "codigo": "0155",
     "genero": "niña",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "all basics bebe a fun day",
     "talla": "18 meses",
     "color": "rosado",
     "cantidad": 1,
-    "precio": 32.0,
+    "precio": 30.0,
     "estado": "disponible",
     "fotos": [
       "0155_1.jpg",
@@ -2317,12 +2317,12 @@
   {
     "codigo": "0156",
     "genero": "niña",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "all basics nube arcoiris",
     "talla": "24 meses",
     "color": "gris",
     "cantidad": 1,
-    "precio": 32.0,
+    "precio": 30.0,
     "estado": "disponible",
     "fotos": [
       "0156_1.jpg",
@@ -2332,12 +2332,12 @@
   {
     "codigo": "0157",
     "genero": "niña",
-    "tipo": "Cafarena",
+    "tipo": "cafarena",
     "modelo": "sin marca cht barbie",
     "talla": "02",
     "color": "rosa fuerte",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0157_1.jpg",
@@ -2347,12 +2347,12 @@
   {
     "codigo": "0158",
     "genero": "niña",
-    "tipo": "Cafarena",
+    "tipo": "cafarena",
     "modelo": "sin marca cht minnnie mouse",
     "talla": "02",
-    "color": "rosado",
+    "color": "rosa bebe",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0158_1.jpg",
@@ -2362,12 +2362,12 @@
   {
     "codigo": "0159",
     "genero": "niña",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "abracitos joyce",
     "talla": "04",
     "color": "celeste jean",
     "cantidad": 1,
-    "precio": 16.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0159_1.jpg",
@@ -2377,12 +2377,12 @@
   {
     "codigo": "0160",
     "genero": "niña",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca cht lazo",
     "talla": "04",
     "color": "rosado",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0160_1.jpg",
@@ -2392,12 +2392,12 @@
   {
     "codigo": "0161",
     "genero": "niña",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca",
     "talla": "04",
-    "color": "rosado",
+    "color": "rosa bb",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0161_1.jpg",
@@ -2407,12 +2407,12 @@
   {
     "codigo": "0162",
     "genero": "niña",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca cht",
     "talla": "04",
-    "color": "rosado",
+    "color": "rosa bb",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0162_1.jpg",
@@ -2422,12 +2422,12 @@
   {
     "codigo": "0163",
     "genero": "niña",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca cht",
     "talla": "04",
     "color": "fucsia",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0163_1.jpg",
@@ -2437,12 +2437,12 @@
   {
     "codigo": "0164",
     "genero": "niña",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca",
     "talla": "04",
     "color": "morado",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0164_1.jpg",
@@ -2452,12 +2452,12 @@
   {
     "codigo": "0165",
     "genero": "niña",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "oslo moira",
     "talla": "04",
     "color": "celeste jean",
     "cantidad": 1,
-    "precio": 19.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0165_1.jpg",
@@ -2467,12 +2467,12 @@
   {
     "codigo": "0166",
     "genero": "niña",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "mewe - polera gaby",
     "talla": "04",
     "color": "palo rosa",
     "cantidad": 2,
-    "precio": 33.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0166_1.jpg",
@@ -2482,12 +2482,12 @@
   {
     "codigo": "0167",
     "genero": "niña",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "mewe - polera gaby",
     "talla": "04",
     "color": "rojo",
     "cantidad": 2,
-    "precio": 33.0,
+    "precio": 35.0,
     "estado": "disponible",
     "fotos": [
       "0167_1.jpg",
@@ -2497,12 +2497,12 @@
   {
     "codigo": "0168",
     "genero": "niña",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "mewe - polera cute",
     "talla": "04",
     "color": "azul noche",
     "cantidad": 1,
-    "precio": 36.0,
+    "precio": 38.0,
     "estado": "disponible",
     "fotos": [
       "0168_1.jpg",
@@ -2512,12 +2512,12 @@
   {
     "codigo": "0169",
     "genero": "niña",
-    "tipo": "Polera",
+    "tipo": "polera",
     "modelo": "mewe - polera cute",
     "talla": "04",
-    "color": "gris",
+    "color": "girs",
     "cantidad": 1,
-    "precio": 36.0,
+    "precio": 38.0,
     "estado": "disponible",
     "fotos": [
       "0169_1.jpg",
@@ -2527,12 +2527,12 @@
   {
     "codigo": "0170",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo marcy",
     "talla": "04",
     "color": "fucsia",
     "cantidad": 1,
-    "precio": 18.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0170_1.jpg",
@@ -2542,12 +2542,12 @@
   {
     "codigo": "0171",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "chamitos baby kids silueta kitty",
     "talla": "04",
     "color": "azulino",
     "cantidad": 2,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0171_1.jpg",
@@ -2557,12 +2557,12 @@
   {
     "codigo": "0172",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "chamitos baby kids unicornio",
     "talla": "04",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0172_1.jpg",
@@ -2572,12 +2572,12 @@
   {
     "codigo": "0173",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo marcy",
     "talla": "04",
     "color": "rosado",
     "cantidad": 1,
-    "precio": 18.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0173_1.jpg",
@@ -2587,12 +2587,12 @@
   {
     "codigo": "0174",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo colly",
     "talla": "04",
     "color": "verde agua",
     "cantidad": 1,
-    "precio": 17.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0174_1.jpg",
@@ -2602,12 +2602,12 @@
   {
     "codigo": "0175",
     "genero": "niña",
-    "tipo": "Cafarena",
+    "tipo": "cafarena",
     "modelo": "sin marca con detalle paw patrol",
     "talla": "04",
     "color": "chicle",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0175_1.jpg",
@@ -2617,12 +2617,12 @@
   {
     "codigo": "0176",
     "genero": "niña",
-    "tipo": "Cafarena",
+    "tipo": "cafarena",
     "modelo": "sin marca con detalle de letras mickey mouse",
     "talla": "04",
     "color": "rosado",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0176_1.jpg"
@@ -2631,12 +2631,12 @@
   {
     "codigo": "0177",
     "genero": "niña",
-    "tipo": "Cafarena",
+    "tipo": "cafarena",
     "modelo": "sin marca",
     "talla": "04",
     "color": "plomo",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0177_1.jpg",
@@ -2646,12 +2646,12 @@
   {
     "codigo": "0178",
     "genero": "niña",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "mewe alesia",
     "talla": "04",
     "color": "p amarillo / b negro",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0178_1.jpg"
@@ -2660,12 +2660,12 @@
   {
     "codigo": "0179",
     "genero": "niña",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca cht",
     "talla": "06",
     "color": "rosado",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0179_1.jpg",
@@ -2675,12 +2675,12 @@
   {
     "codigo": "0180",
     "genero": "niña",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca cht",
     "talla": "06",
     "color": "verde agua",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0180_1.jpg",
@@ -2690,12 +2690,12 @@
   {
     "codigo": "0181",
     "genero": "niña",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca cht",
     "talla": "06",
     "color": "fucsia",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0181_1.jpg",
@@ -2705,12 +2705,12 @@
   {
     "codigo": "0182",
     "genero": "niña",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca cht",
     "talla": "06",
     "color": "azul noche",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0182_1.jpg",
@@ -2720,12 +2720,12 @@
   {
     "codigo": "0183",
     "genero": "niña",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "abracitos joyce",
     "talla": "06",
     "color": "celeste jean",
     "cantidad": 1,
-    "precio": 16.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0183_1.jpg",
@@ -2735,12 +2735,12 @@
   {
     "codigo": "0184",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "chamitos baby kids",
     "talla": "06",
     "color": "negro",
     "cantidad": 2,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0184_1.jpg",
@@ -2750,12 +2750,12 @@
   {
     "codigo": "0185",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "chamitos baby kids",
     "talla": "06",
     "color": "rosado",
     "cantidad": 2,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0185_1.jpg",
@@ -2765,12 +2765,12 @@
   {
     "codigo": "0186",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "chamitos baby kids unicornio",
     "talla": "06",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0186_1.jpg",
@@ -2780,12 +2780,12 @@
   {
     "codigo": "0187",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo arlett",
     "talla": "06",
     "color": "rosado",
     "cantidad": 1,
-    "precio": 26.0,
+    "precio": 28.0,
     "estado": "disponible",
     "fotos": [
       "0187_1.jpg",
@@ -2795,12 +2795,12 @@
   {
     "codigo": "0188",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo arlett",
     "talla": "06",
     "color": "fucsia",
     "cantidad": 1,
-    "precio": 26.0,
+    "precio": 28.0,
     "estado": "disponible",
     "fotos": [
       "0188_1.jpg",
@@ -2810,12 +2810,12 @@
   {
     "codigo": "0189",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo marcy",
     "talla": "06",
     "color": "rosado",
     "cantidad": 1,
-    "precio": 18.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0189_1.jpg",
@@ -2825,12 +2825,12 @@
   {
     "codigo": "0190",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo marcy",
     "talla": "06",
     "color": "fucsia",
     "cantidad": 1,
-    "precio": 18.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0190_1.jpg",
@@ -2840,12 +2840,12 @@
   {
     "codigo": "0191",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo colly",
     "talla": "06",
     "color": "fucsia",
     "cantidad": 1,
-    "precio": 17.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0191_1.jpg",
@@ -2855,12 +2855,12 @@
   {
     "codigo": "0192",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo colly",
     "talla": "06",
     "color": "verde agua",
     "cantidad": 1,
-    "precio": 17.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0192_1.jpg",
@@ -2870,12 +2870,12 @@
   {
     "codigo": "0193",
     "genero": "niña",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "adidas",
     "talla": "06",
     "color": "rosado",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0193_1.jpg"
@@ -2884,12 +2884,12 @@
   {
     "codigo": "0194",
     "genero": "niña",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "puma",
     "talla": "06",
     "color": "palo rosa",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0194_1.jpg"
@@ -2898,12 +2898,12 @@
   {
     "codigo": "0195",
     "genero": "niña",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "adidas",
     "talla": "06",
     "color": "fucsia",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0195_1.jpg"
@@ -2912,12 +2912,12 @@
   {
     "codigo": "0196",
     "genero": "niña",
-    "tipo": "Cafarena",
+    "tipo": "cafarena",
     "modelo": "sin marca cara hello kitty",
     "talla": "06",
     "color": "rosado",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0196_1.jpg",
@@ -2927,12 +2927,12 @@
   {
     "codigo": "0197",
     "genero": "niña",
-    "tipo": "Cafarena",
+    "tipo": "cafarena",
     "modelo": "sin marca logo barbie",
     "talla": "06",
     "color": "fucsia",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0197_1.jpg",
@@ -2942,12 +2942,12 @@
   {
     "codigo": "0198",
     "genero": "niña",
-    "tipo": "Cafarena",
+    "tipo": "cafarena",
     "modelo": "sin marca",
     "talla": "08",
     "color": "rojo",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0198_1.jpg",
@@ -2957,12 +2957,12 @@
   {
     "codigo": "0199",
     "genero": "niña",
-    "tipo": "Cafarena",
+    "tipo": "cafarena",
     "modelo": "sin marca",
     "talla": "08",
     "color": "fucsia",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0199_1.jpg",
@@ -2972,12 +2972,12 @@
   {
     "codigo": "0200",
     "genero": "niña",
-    "tipo": "Cafarena",
+    "tipo": "cafarena",
     "modelo": "sin marca",
     "talla": "08",
     "color": "azulino",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0200_1.jpg",
@@ -2987,12 +2987,12 @@
   {
     "codigo": "0201",
     "genero": "niña",
-    "tipo": "Leggins",
+    "tipo": "leggins",
     "modelo": "oslo parissa",
     "talla": "08",
     "color": "fucsia",
     "cantidad": 1,
-    "precio": 31.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0201_1.jpg",
@@ -3002,12 +3002,12 @@
   {
     "codigo": "0202",
     "genero": "niña",
-    "tipo": "Leggins",
+    "tipo": "leggins",
     "modelo": "oslo parissa",
     "talla": "08",
     "color": "melange",
     "cantidad": 1,
-    "precio": 31.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0202_1.jpg",
@@ -3017,12 +3017,12 @@
   {
     "codigo": "0203",
     "genero": "niña",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "abracitos joyce",
     "talla": "08",
     "color": "celeste jean",
     "cantidad": 1,
-    "precio": 27.0,
+    "precio": 28.0,
     "estado": "disponible",
     "fotos": [
       "0203_1.jpg",
@@ -3032,12 +3032,12 @@
   {
     "codigo": "0204",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo khole",
     "talla": "08",
     "color": "melange",
     "cantidad": 1,
-    "precio": 28.0,
+    "precio": 30.0,
     "estado": "disponible",
     "fotos": [
       "0204_1.jpg",
@@ -3047,12 +3047,12 @@
   {
     "codigo": "0205",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo khole",
     "talla": "08",
     "color": "fucsia",
     "cantidad": 1,
-    "precio": 28.0,
+    "precio": 30.0,
     "estado": "disponible",
     "fotos": [
       "0205_1.jpg",
@@ -3062,12 +3062,12 @@
   {
     "codigo": "0206",
     "genero": "niña",
-    "tipo": "Polo M/C",
+    "tipo": "polo m/c",
     "modelo": "oslo gamarra",
     "talla": "08",
     "color": "negro",
     "cantidad": 1,
-    "precio": 17.0,
+    "precio": 20.0,
     "estado": "disponible",
     "fotos": [
       "0206_1.jpg",
@@ -3077,12 +3077,12 @@
   {
     "codigo": "0207",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo arlett",
     "talla": "08",
     "color": "rosado",
     "cantidad": 1,
-    "precio": 26.0,
+    "precio": 28.0,
     "estado": "disponible",
     "fotos": [
       "0207_1.jpg",
@@ -3092,12 +3092,12 @@
   {
     "codigo": "0208",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo arlett",
     "talla": "08",
     "color": "fucsia",
     "cantidad": 1,
-    "precio": 26.0,
+    "precio": 28.0,
     "estado": "disponible",
     "fotos": [
       "0208_1.jpg",
@@ -3107,12 +3107,12 @@
   {
     "codigo": "0209",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo marcy",
     "talla": "08",
     "color": "rosado",
     "cantidad": 1,
-    "precio": 18.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0209_1.jpg",
@@ -3122,12 +3122,12 @@
   {
     "codigo": "0210",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo marcy",
     "talla": "08",
     "color": "fucsia",
     "cantidad": 1,
-    "precio": 18.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0210_1.jpg",
@@ -3137,12 +3137,12 @@
   {
     "codigo": "0211",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "oslo colly",
     "talla": "08",
     "color": "blanco",
     "cantidad": 1,
-    "precio": 17.0,
+    "precio": 22.0,
     "estado": "disponible",
     "fotos": [
       "0211_1.jpg",
@@ -3152,12 +3152,12 @@
   {
     "codigo": "0212",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "chamitos baby kids unicornio",
     "talla": "08",
-    "color": "blanco",
+    "color": "blanc0",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0212_1.jpg",
@@ -3167,12 +3167,12 @@
   {
     "codigo": "0213",
     "genero": "niña",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "mewe alesia",
     "talla": "08",
     "color": "palo rosa",
     "cantidad": 2,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0213_1.jpg"
@@ -3181,12 +3181,12 @@
   {
     "codigo": "0214",
     "genero": "niiña",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "sin marca miniee",
     "talla": "08",
     "color": "melange",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 48.0,
     "estado": "disponible",
     "fotos": [
       "0214_1.jpg"
@@ -3195,12 +3195,12 @@
   {
     "codigo": "0215",
     "genero": "niña",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "mewe alesia",
     "talla": "08",
     "color": "p amarillo / b negro",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0215_1.jpg"
@@ -3209,12 +3209,12 @@
   {
     "codigo": "0216",
     "genero": "niña",
-    "tipo": "Polo M/L",
+    "tipo": "polo m/l",
     "modelo": "chamitos peppa pig",
     "talla": "10",
     "color": "morado bajito",
     "cantidad": 1,
-    "precio": 24.0,
+    "precio": 25.0,
     "estado": "disponible",
     "fotos": [
       "0216_1.jpg",
@@ -3224,12 +3224,12 @@
   {
     "codigo": "0217",
     "genero": "niña",
-    "tipo": "Cafarena",
+    "tipo": "cafarena",
     "modelo": "sin marca",
     "talla": "10",
     "color": "rosa fuerte",
     "cantidad": 1,
-    "precio": 15.0,
+    "precio": 18.0,
     "estado": "disponible",
     "fotos": [
       "0217_1.jpg",
@@ -3239,12 +3239,12 @@
   {
     "codigo": "0218",
     "genero": "niña",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca",
     "talla": "10",
     "color": "coral",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0218_1.jpg",
@@ -3254,12 +3254,12 @@
   {
     "codigo": "0219",
     "genero": "niña",
-    "tipo": "Buzo",
+    "tipo": "buzo",
     "modelo": "sin marca cht minnnie mouse",
     "talla": "10",
     "color": "gris",
     "cantidad": 1,
-    "precio": 30.0,
+    "precio": 32.0,
     "estado": "disponible",
     "fotos": [
       "0219_1.jpg",
@@ -3269,12 +3269,12 @@
   {
     "codigo": "0220",
     "genero": "niña",
-    "tipo": "Short",
+    "tipo": "short",
     "modelo": "abracitos joyce",
     "talla": "10",
     "color": "celeste jean",
     "cantidad": 1,
-    "precio": 27.0,
+    "precio": 28.0,
     "estado": "disponible",
     "fotos": [
       "0220_1.jpg",
@@ -3284,12 +3284,12 @@
   {
     "codigo": "0221",
     "genero": "niña",
-    "tipo": "Polera + Buzo",
+    "tipo": "polera + buzo",
     "modelo": "sin marca minnie",
     "talla": "10",
     "color": "melange",
     "cantidad": 1,
-    "precio": 45.0,
+    "precio": 49.0,
     "estado": "disponible",
     "fotos": [
       "0221_1.jpg"

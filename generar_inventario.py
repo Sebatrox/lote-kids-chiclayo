@@ -5,7 +5,7 @@ from pathlib import Path
 
 BASE = Path(r"c:\Users\Sebastian\Desktop\tienda-ropa")
 FOTOS_DIR = BASE / "fotos"
-EXCEL_PATH = BASE / "Inventario_Ropa_niños_COMPLETO.xlsx"
+EXCEL_PATH = BASE / "Inventario_Ropa_niños_Precio_Óptimo.xlsx"
 OUTPUT_PATH = BASE / "inventario.json"
 
 # Indexar fotos existentes por código
@@ -21,9 +21,9 @@ df.columns = df.columns.str.strip()  # elimina espacios al inicio/fin de cada no
 
 genero_col = [c for c in df.columns if "nero" in c.lower()][0]
 
-# Detecta la columna de precio de liquidación por búsqueda parcial (evita problemas de codificación)
-precio_liq_col = [c for c in df.columns if "LIQUIDACI" in c.upper()][0]
-print(f"Columna precio liquidacion: {repr(precio_liq_col)}")
+# Detecta la columna PRECIO ÓPTIMO por búsqueda parcial (evita problemas de codificación con tilde)
+precio_liq_col = [c for c in df.columns if "PTIMO" in c.upper()][0]
+print(f"Columna precio optimo: {repr(precio_liq_col)}")
 
 productos = []
 for _, row in df.iterrows():

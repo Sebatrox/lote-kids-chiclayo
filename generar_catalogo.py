@@ -168,7 +168,8 @@ tr.sold td{color:#bbb}
 .tog input:checked + .tog-sl{background:var(--or)}
 .tog input:checked + .tog-sl::before{transform:translateX(19px)}
 .adm-qty-btn{background:var(--or);color:#fff;border-radius:5px;padding:3px 8px;font-size:11px;font-weight:700}
-.adm-sold-btn{background:#e53935;color:#fff;border-radius:5px;padding:3px 8px;font-size:11px;font-weight:700}
+.adm-sold-btn{background:#eee;color:#666;border-radius:5px;padding:3px 8px;font-size:11px;font-weight:600;border:1px solid #ddd}
+.adm-restore-btn{background:#e8f5e9;color:#388e3c;border-radius:5px;padding:3px 8px;font-size:11px;font-weight:600;border:1px solid #c8e6c9}
 
 /* FOOTER */
 footer{background:#222;color:#777;text-align:center;padding:20px 16px 30px;font-size:12px}
@@ -448,13 +449,18 @@ function closeAdm(){
   renderGrid(); updCart();
 }
 function admQtyCellInner(p){
+  if(p.estado==='vendido'){
+    return `<span style="color:#bbb;font-size:11px;font-style:italic">Agotado</span>
+      <div style="margin-top:5px;text-align:center">
+        <button class="adm-restore-btn" onclick="admRestore('${p.codigo}')">Restaurar</button>
+      </div>`;
+  }
   const numCol=p.cantidad>1?'var(--or)':'inherit';
   const numW=p.cantidad>1?'700':'400';
   const num=`<span style="font-weight:${numW};color:${numCol}">${p.cantidad}</span>`;
-  if(p.estado==='vendido') return num;
-  const soldBtn=`<button class="adm-sold-btn" onclick="admSoldOut('${p.codigo}')">Agotado</button>`;
+  const soldBtn=`<button class="adm-sold-btn" onclick="admSoldOut('${p.codigo}')">Marcar agotado</button>`;
   const minusBtn=p.cantidad>=2?`<button class="adm-qty-btn" onclick="admReduceQty('${p.codigo}')">-1</button>`:'';
-  return `${num}<div style="display:flex;gap:4px;margin-top:5px;justify-content:center">${minusBtn}${soldBtn}</div>`;
+  return `${num}<div style="display:flex;gap:4px;margin-top:5px;justify-content:center;flex-wrap:wrap">${minusBtn}${soldBtn}</div>`;
 }
 function admReduceQty(cod){
   const p=inv.find(x=>x.codigo===cod); if(!p||p.cantidad<=1) return;
@@ -466,6 +472,13 @@ function admReduceQty(cod){
   renderStats();
 }
 function admSoldOut(cod){ togState(cod,false); }
+function admRestore(cod){
+  const orig=INV_BASE.find(x=>x.codigo===cod); if(!orig) return;
+  const s=JSON.parse(localStorage.getItem(LSK+'_qty')||'{}');
+  delete s[cod]; localStorage.setItem(LSK+'_qty',JSON.stringify(s));
+  const p=inv.find(x=>x.codigo===cod); if(p) p.cantidad=orig.cantidad;
+  togState(cod,true);
+}
 
 function renderStats(){
   const tot=inv.length;
